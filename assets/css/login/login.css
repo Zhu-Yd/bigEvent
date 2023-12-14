@@ -1,0 +1,64 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: url("../../images/login_bg.jpg") no-repeat center;
+  background-size: cover;
+  font-size: 18px;
+}
+.layui-main {
+  position: relative;
+  height: 100%;
+}
+.layui-main > img {
+  margin-top: 20px;
+}
+.layui-main .login_box {
+  width: 400px;
+  height: 310px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.layui-main .login_box .title-box {
+  height: 60px;
+}
+.layui-main .login_box .title-box h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #00a4ff;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.8rem;
+}
+.layui-main .login_box .tologin_box {
+  display: none;
+}
+.layui-main .login_box .layui-form {
+  padding: 0 30px;
+}
+.layui-main .login_box .layui-form a {
+  font-size: 14px;
+}
+.layui-main .login_box .layui-form .links {
+  display: flex;
+  justify-content: flex-end;
+}
+.layui-main .login_box .layui-form .layui-form-item {
+  position: relative;
+}
+.layui-main .login_box .layui-form .layui-form-item i {
+  position: absolute;
+  font-size: 18px;
+  left: 10px;
+  top: 10px;
+}
+.layui-main .login_box .layui-form .layui-form-item .layui-input {
+  padding-left: 40px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=login.css.map */
